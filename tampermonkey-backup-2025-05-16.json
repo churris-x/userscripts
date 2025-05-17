@@ -1,0 +1,111 @@
+{
+    "created_by": "Tampermonkey",
+    "version": "1",
+    "scripts": [
+        {
+            "name": "Disable keyboard capture",
+            "options": {
+                "check_for_updates": true,
+                "comment": null,
+                "compat_foreach": false,
+                "compat_metadata": false,
+                "compat_powerful_this": null,
+                "compat_wrappedjsobject": false,
+                "compatopts_for_requires": true,
+                "noframes": null,
+                "override": {
+                    "merge_connects": true,
+                    "merge_excludes": true,
+                    "merge_includes": true,
+                    "merge_matches": true,
+                    "orig_connects": [],
+                    "orig_excludes": [
+                        "*.google.*",
+                        "https://fbe.teoxoy.com/*"
+                    ],
+                    "orig_includes": [
+                        "*"
+                    ],
+                    "orig_matches": [],
+                    "orig_noframes": null,
+                    "orig_run_at": "document-start",
+                    "orig_run_in": [],
+                    "orig_tags": [],
+                    "use_blockers": [],
+                    "use_connects": [],
+                    "use_excludes": [],
+                    "use_includes": [],
+                    "use_matches": []
+                },
+                "run_at": null,
+                "run_in": null,
+                "sandbox": null,
+                "tags": [],
+                "unwrap": null,
+                "user_modified": 1747426638666
+            },
+            "storage": {
+                "ts": 1731859990209,
+                "data": {}
+            },
+            "enabled": true,
+            "position": 1,
+            "file_url": "https://github.com/churris-x/userscripts/blob/master/src/disable-key-capture.js",
+            "uuid": "2c76b22e-8a22-409f-852e-3680b64a8981",
+            "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgIERpc2FibGUga2V5Ym9hcmQgY2FwdHVyZQovLyBAZGVzY3JpcHRpb24gICAgU3RvcCB3ZWJzaXRlcyBmcm9tIGhpZ2hqYWNraW5nIGtleWJvYXJkIHNob3J0Y3V0cwovLyBAdmVyc2lvbiAgICAgICAgMC4wLjEKLy8KLy8gQHJ1bi1hdCAgICAgICAgIGRvY3VtZW50LXN0YXJ0Ci8vIEBpbmNsdWRlICAgICAgICAqCi8vIEBleGNsdWRlICAgICAgICAqLmdvb2dsZS4qCi8vIEBleGNsdWRlICAgICAgICBodHRwczovL2ZiZS50ZW94b3kuY29tLyoKLy8gQGdyYW50ICAgICAgICAgIG5vbmUKLy8gPT0vVXNlclNjcmlwdD09Cgpjb25zdCBrZXlzID0gWydzJywgJ3QnLCAndycsICdsJ107CgovLyBpc1RydXN0ZWQgLT4gdXNlckFnZW50Ci8vIG1ldGFLZXksIGN0cmxLZXksIHNoaWZ0S2V5LCBhbHRLZXksCgpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJywgZXZlbnQgPT4gewoKICAgIGlmICgKICAgICAgICAoa2V5cy5pbmRleE9mKGV2ZW50LmtleSkgIT09IC0xICYmIGV2ZW50Lm1ldGFLZXkpCiAgICAgICAgfHwgZXZlbnQua2V5ID09PSAnRXNjYXBlJwogICAgKSB7CiAgICAgICAgZXZlbnQuY2FuY2VsQnViYmxlID0gdHJ1ZTsKICAgICAgICBldmVudC5zdG9wSW1tZWRpYXRlUHJvcGFnYXRpb24oKTsKCiAgICAgICAgY29uc29sZS5sb2coYFByZXZlbnQgY2FwdHVyZSBvZiAiJHtldmVudC5rZXl9IiwgZ290Y2hhIWApOwogICAgfQoKICAgIHJldHVybiBmYWxzZTsKCn0sIHRydWUpOwoKZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBldmVudCA9PiB7CiAgICBpZiAoZXZlbnQubWV0YUtleSkgewogICAgICAgIGV2ZW50LmNhbmNlbEJ1YmJsZSA9IHRydWU7CiAgICAgICAgZXZlbnQuc3RvcEltbWVkaWF0ZVByb3BhZ2F0aW9uKCk7CgogICAgICAgIGNvbnNvbGUubG9nKGBQcmV2ZW50IGNhcHR1cmUgb2YgQ29tbWFuZCBjbGljaywgZ290Y2hhIWApOwogICAgfQoKfSwgdHJ1ZSk7Cg=="
+        }
+    ],
+    "settings": {
+        "configMode": 100,
+        "favicon_service": "google",
+        "i18n": "en",
+        "layout": "default",
+        "layout_user_css": "",
+        "notification_showUpdate": "changelog",
+        "script_blacklist_server": [
+            {
+                "rules": [
+                    "/https?:\/\/userscripts\\.org\/scripts\/(source|version)/(102614).*\\.user\\.js/"
+                ],
+                "severity": 2
+            },
+            {
+                "name": "SaveFrom.net helper",
+                "reason": "Shows advertisements",
+                "rules": [
+                    "/https?:\/\/sf-addon\\.com\/.*\/.*\\.user\\.js/",
+                    "/https?:\/\/.*\\.sf-helper\\.com\/.*\\.user\\.js/"
+                ],
+                "severity": 3
+            },
+            {
+                "reasons": {
+                    "en": "Used for a phishing compain to compromise users of baon-nutrition.com"
+                },
+                "rules": [
+                    "/https?:\/\/files\\.ulysse\\.travel\/.*\\.user\\.js/"
+                ],
+                "severity": 8
+            }
+        ],
+        "statistics_enabled": false,
+        "editor_enabled": true,
+        "editor_theme": "monokai",
+        "editor_fontSize": "100",
+        "editor_keyMap": "sublime",
+        "editor_indentUnit": "4",
+        "editor_tabSize": "4",
+        "editor_indentWithTabs": "spaces",
+        "editor_tabMode": "indent",
+        "editor_highlightSelectionMatches": "cursor",
+        "editor_lineWrapping": false,
+        "editor_electricChars": true,
+        "editor_autoSave": false,
+        "editor_easySave": true,
+        "editor_highlightTrailingWhitespace": true,
+        "editor_trimTrailingSpacesFromModifiedLines": true,
+        "editor_autoLint": true,
+        "editor_autoLintMaxLen": "1000000",
+        "editor_linter_config": null
+    }
+}
