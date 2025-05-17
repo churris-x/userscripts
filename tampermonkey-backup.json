@@ -50,7 +50,7 @@
             },
             "enabled": true,
             "position": 1,
-            "file_url": "https://github.com/churris-x/userscripts/blob/master/src/disable-key-capture.js",
+            "file_url": "https://github.com/churris-x/userscripts/blob/master/src/disable-key-capture.user.js",
             "uuid": "2c76b22e-8a22-409f-852e-3680b64a8981",
             "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICAgIERpc2FibGUga2V5Ym9hcmQgY2FwdHVyZQovLyBAZGVzY3JpcHRpb24gICAgU3RvcCB3ZWJzaXRlcyBmcm9tIGhpZ2hqYWNraW5nIGtleWJvYXJkIHNob3J0Y3V0cwovLyBAdmVyc2lvbiAgICAgICAgMC4wLjEKLy8KLy8gQHJ1bi1hdCAgICAgICAgIGRvY3VtZW50LXN0YXJ0Ci8vIEBpbmNsdWRlICAgICAgICAqCi8vIEBleGNsdWRlICAgICAgICAqLmdvb2dsZS4qCi8vIEBleGNsdWRlICAgICAgICBodHRwczovL2ZiZS50ZW94b3kuY29tLyoKLy8gQGdyYW50ICAgICAgICAgIG5vbmUKLy8gPT0vVXNlclNjcmlwdD09Cgpjb25zdCBrZXlzID0gWydzJywgJ3QnLCAndycsICdsJ107CgovLyBpc1RydXN0ZWQgLT4gdXNlckFnZW50Ci8vIG1ldGFLZXksIGN0cmxLZXksIHNoaWZ0S2V5LCBhbHRLZXksCgpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJywgZXZlbnQgPT4gewoKICAgIGlmICgKICAgICAgICAoa2V5cy5pbmRleE9mKGV2ZW50LmtleSkgIT09IC0xICYmIGV2ZW50Lm1ldGFLZXkpCiAgICAgICAgfHwgZXZlbnQua2V5ID09PSAnRXNjYXBlJwogICAgKSB7CiAgICAgICAgZXZlbnQuY2FuY2VsQnViYmxlID0gdHJ1ZTsKICAgICAgICBldmVudC5zdG9wSW1tZWRpYXRlUHJvcGFnYXRpb24oKTsKCiAgICAgICAgY29uc29sZS5sb2coYFByZXZlbnQgY2FwdHVyZSBvZiAiJHtldmVudC5rZXl9IiwgZ290Y2hhIWApOwogICAgfQoKICAgIHJldHVybiBmYWxzZTsKCn0sIHRydWUpOwoKZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCBldmVudCA9PiB7CiAgICBpZiAoZXZlbnQubWV0YUtleSkgewogICAgICAgIGV2ZW50LmNhbmNlbEJ1YmJsZSA9IHRydWU7CiAgICAgICAgZXZlbnQuc3RvcEltbWVkaWF0ZVByb3BhZ2F0aW9uKCk7CgogICAgICAgIGNvbnNvbGUubG9nKGBQcmV2ZW50IGNhcHR1cmUgb2YgQ29tbWFuZCBjbGljaywgZ290Y2hhIWApOwogICAgfQoKfSwgdHJ1ZSk7Cg=="
         }
