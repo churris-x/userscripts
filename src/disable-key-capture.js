@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name           Disable key capture
 // @description    Stop websites from highjacking keyboard shortcuts
-// @version        0.0.0
+// @version        0.0.1
 //
 // @run-at         document-start
 // @include        *
 // @exclude        *.google.*
+// @exclude        https://fbe.teoxoy.com/*
 // @grant          none
 // ==/UserScript==
 
