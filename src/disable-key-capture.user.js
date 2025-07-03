@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Disable key capture
 // @description    Stop websites from highjacking keyboard shortcuts
-// @version        0.0.2
+// @version        0.0.3
 // @license        MIT
 // @author         Fran
 //
@@ -10,6 +10,7 @@
 // @exclude        *.google.*
 // @exclude        https://fbe.teoxoy.com/*
 // @exclude        https://discord.com/*
+// @exclude        https://www.pico-8-edu.com/*
 // @grant          none
 // @updateURL      https://raw.githubusercontent.com/churris-x/userscripts/master/src/disable-key-capture.user.js
 // @downloadURL    https://raw.githubusercontent.com/churris-x/userscripts/master/src/disable-key-capture.user.js
